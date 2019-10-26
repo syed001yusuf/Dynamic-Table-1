@@ -1,0 +1,41 @@
+.header-color {
+    background-color: yellow;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border: 2px solid black;
+}
+
+.table td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button.custom-btn {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+th,
+tr,
+td {
+    padding: 0.4%;
+    overflow: auto;
+}
+
+div.input-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.cutom-margin {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
